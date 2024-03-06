@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+   
+	  <form>
+        <p> SALDO: <input type="number" id="result" readonly value="">  </p>
+        <p> SAQUE: <input type="text" id="opa"> </p>
+        <button type="button" onclick="ObterDados()" id="buton"> Saque </button>
+      </form>
+ <script>
+    	let num = window.prompt("Digite seu saldo");
+    	document.getElementById("result").value = num;
+		
+ if (result - opa >=0) {
+ alert("Saque realizado com sucesso");
+ }else{
+	alert("Saque inválido")
+ }
+	</script>
+</body>
+</html>
